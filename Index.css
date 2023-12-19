@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffd29d;
+	background-image: url("Images/img11.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+h1 {
+    margin:20px 220px;
+}
+
+h2, h3, p {
+    text-shadow: 0 0 1px black;
+	margin:20px;
+}
+
+
+#bff-img {
+    width: 350px;
+	height:240px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+
+#header {
+	margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 80px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+.gift-img1 {
+	width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url("Images/img4.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	margin: 0 auto;
+	cursor:pointer;
+}
+
+.gift-img1:hover {
+	background-image: url("Images/img_0664.jpg");
+	
+}
+
+.gift-img2 {
+	width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url("Images/img5.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	margin: 0 auto;
+	cursor:pointer;
+}
+
+.gift-img2:hover {
+	background-image: url("Images/img_0899.jpg");
+	
+}
+.container {
+	height:70px;
+}
+.gift-img3 {
+	width: 800px;
+    height: 630px;
+    border-radius: 10px;
+    background-image: url("Images/img6.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	margin: 0 auto;
+	cursor:pointer;
+}
+
+.gift-img3:hover {
+	background-image: url("Images/img_0431.jpg");
+	
+}
+.footer-main {
+	margin-top:40px;
+	width:100%;
+	height:80px;
+	background-color:#edcd6b;
+	color:green;
+		
+	
+}
+
+.footer-main ul {
+	list-style:none;
+	
+	
+}
+
+.footer-main ul li{
+	display:inline;
+	
+}
+
+.footer-main ul li a{
+	padding: 0 30px;
+	font-size:20px;
+	font-weight:700;
+	color:#192848;
+	line-height:80px;
+	text-transform:uppercase;
+	text-decoration:none;
+	
+}

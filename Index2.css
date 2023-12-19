@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+    color: #ffd29d;
+	background-image: url("Images/Des6.png"),url("images/Img.png");
+	background-size: 160vh, cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+
+.stxt {
+	color:white;
+	margin:30px 70px;
+	padding:40px;
+	text-transform:uppercase;
+	line-height:20px;
+	font-size:20px;
+	font-weight:600;
+	text-align:right;
+}
+
+.mtxt {
+	color:white;
+	margin:30px 70px;
+	padding:40px;
+	text-transform:uppercase;
+	line-height:20px;
+	font-size:20px;
+	font-weight:600;
+}
+
+
+
+.main-text {
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+	column-gap:20px;
+}
+
+.txt2 p {
+	color:white;
+	margin:30px 70px;
+	padding:30px;
+	text-transform:uppercase;
+	line-height:20px;
+	font-size:20px;
+	font-weight:600;
+
+}
+
